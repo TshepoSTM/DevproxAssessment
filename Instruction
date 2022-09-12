@@ -1,6 +1,7 @@
-1. The project can be deployed on localhost, i have used mysql as a database.
-1. The “csv_import” is saved in "Output" folder in project folder "devprox".
-2. Database connection is created in dbconnection.php
-3. Drop the database "myDB" if exist.
-4. If you encouter "Maximum execution time in phpMyadmin" error , changed the following in the php.ini file:
+1. Download the proect named "devprox"
+2. The project can be deployed on localhost, i have used mysql as a database.
+3. The “csv_import” is saved in "Output" folder in project folder "devprox".
+4. Database connection is created in dbconnection.php
+5. Drop the database "myDB" if exist.
+6. If you encouter "Maximum execution time in phpMyadmin" error , changed the following in the php.ini file:
 	max_execution_time = 1000 ; and max_input_time = 1000 ;
